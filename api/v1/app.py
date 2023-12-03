@@ -7,7 +7,7 @@ Solution for task 3:
 """
 import os
 from api.v1.views import app_views
-from api.v1 import models
+from ..models import storage
 from os import getenv
 from flask import Flask, jsonify
 from flask_cors import CORS
@@ -39,7 +39,7 @@ def teardown_thingy(exception=None):
 
 if __name__ == "__main__":
 
-	host = os.environ.get('HBNB_API_HOST','0.0.0.0') """might be an error"""
+	host = os.environ.get('HBNB_API_HOST','0.0.0.0')
 
 	port = os.environ.get('HBNB_API_PORT', 5000)
 
