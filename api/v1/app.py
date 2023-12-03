@@ -11,13 +11,14 @@ from ..models import storage
 from os import getenv
 from flask import Flask, jsonify
 from flask_cors import CORS
+from flask_restful import Api
 from flask import Flask
 from models import storage
 
 
 app = Flask(__name__)
 
-
+api = Api(app)
 
 app.register_blueprint(app_views)
 
