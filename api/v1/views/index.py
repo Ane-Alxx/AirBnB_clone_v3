@@ -12,11 +12,11 @@ from flask import Flask, jsonify
 
 
 
-@app_views.route('/status', strict_slashes=False)
+@app_views.route('/status', strict_slashes=False, methods=["GET"])
 
 
 
-def get_status():
+def status():
 
 	"""
 
@@ -25,3 +25,14 @@ def get_status():
 	"""
 
     return jsonify({"status": "OK"})
+
+
+@app_views.route("/stats", methods=["GET"], strict_slashes=False)
+def get_stats():
+    """
+    Retrieves the number of each object by type.
+    """
+    object_counts = {}
+    for key in storage.all().keys():
+        object_counts[key] = storage.count(key)
+    return jsonify(object_counts)
