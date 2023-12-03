@@ -6,13 +6,13 @@ Solution for task 3:
 
 """
 import os
-from models import storage
 from api.v1.views import app_views
+from api.v1 import models
 from os import getenv
 from flask import Flask, jsonify
 from flask_cors import CORS
 from flask import Flask
-
+from models import storage
 
 
 app = Flask(__name__)
