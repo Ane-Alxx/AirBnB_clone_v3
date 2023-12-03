@@ -149,13 +149,36 @@ EOF  all  create  destroy  help  quit  show  update
 ** no instance found **
 (hbnb) quit
 ```
+AIRBNB - REST API
+This project delves into several key concepts within the realm of web development and API creation. To further your knowledge and understanding, we encourage you to explore the following resources:
 
+REST APIs:
+
+RESTful API Tutorial: https://www.pragimtech.com/courses/asp-net-web-api-tutorial-for-beginners/
+Learn REST: A Comprehensive Guide: https://m.youtube.com/watch?v=nbv5VJRxI40
+Designing RESTful APIs with Python and Flask: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xxiii-application-programming-interfaces-apis
+HTTP Access Control (CORS):
+
+Cross-Origin Resource Sharing (CORS): https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
+Flask Framework:
+
+Flask Cheatsheet: https://github.com/lucrae/flask-cheat-sheet
+Understanding Flask Blueprints: https://realpython.com/python-web-applications-with-flask-part-i/
+Flask: The Pallets Projects Web Framework: https://palletsprojects.com/
+Modularizing Flask Applications with Blueprints: https://www.reddit.com/r/flask/comments/xv0js7/how_does_a_single_running_instance_of_a_flask/
+Testing Flask Applications: https://palletsprojects.com/
+Additional Resources:
+
+Flask-CORS: https://flask-cors.readthedocs.io/
+By diligently exploring these resources, you will gain a deeper understanding of the fundamental concepts employed within this project. We encourage you to embark on this journey of knowledge and further explore these invaluable resources.
 ## Bugs
 No known bugs at this time. 
 
 ## Authors
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
+Mufidat 
+Ane
 
 Second part of Airbnb: Joann Vuong
 ## License
