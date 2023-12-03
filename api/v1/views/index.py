@@ -15,12 +15,6 @@ from models import storage
 
 def status():
 
-	"""
-
-     we are going to just document this
-
-	"""
-
     return jsonify({"status": "OK"})
 
 
